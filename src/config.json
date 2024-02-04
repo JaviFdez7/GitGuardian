@@ -1,0 +1,21 @@
+{
+    "projectName": "psg2-2223-g6-63",
+    "projectOwner": "gii-is-psg2",
+    "metrics": {
+        "assignedIssues": {
+            "activeMetric": true,
+            "minimumAssignedMembersPerIssue": 1,
+            "acceptancePercentage": 50
+        },
+        "commentsInClosedIssues": {
+            "activeMetric": true,
+            "minimumCommentsPerClosedIssue": 1,
+            "acceptancePercentage": 30
+        },
+        "ghProjectsAssignedToIssues": {
+            "activeMetric": true,
+            "minimumGHProjectsPerIssue": 1,
+            "acceptancePercentage": 50
+        }
+    }
+}
