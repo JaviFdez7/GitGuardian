@@ -12,9 +12,14 @@
             "minimumCommentsPerClosedIssue": 1,
             "acceptancePercentage": 30
         },
-        "ghProjectsAssignedToIssues": {
+        "assignedGHProjectsToIssues": {
             "activeMetric": true,
             "minimumGHProjectsPerIssue": 1,
+            "acceptancePercentage": 50
+        },
+        "approvedReviewsToMergedPullRequests": {
+            "activeMetric": true,
+            "minimumApprovedReviewsPerMergedPullRequests": 1,
             "acceptancePercentage": 50
         }
     }

@@ -8,9 +8,9 @@ const _dirname = __dirname;
 const configPath = path.resolve(_dirname, `../config.json`);
 const configData = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
-module.exports = { ghProjectsAssignedToIssuesFromRepository }; 
+module.exports = { assignedGHProjectsToIssuesFromRepository }; 
 
-async function ghProjectsAssignedToIssuesFromRepository(){
+async function assignedGHProjectsToIssuesFromRepository(){
 
   const query = `
   {
